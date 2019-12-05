@@ -1,0 +1,18 @@
+function getLaserSwordOrigin() {
+	  var laserSwordColor = getLaserSwordColor();
+	
+	  if (laserSwordColor == “blue”) {
+	    return “I\’m owned by Luke Skywalker.”;
+	  }
+	  
+	  if (laserSwordColor == “green”) {
+	    return “I\’m owned by Yoda.”;
+	  }
+	  
+	  if (laserSwordColor == “red”) {
+	    return “I\’m owned by Luke\’s pa.”;
+	  }
+	  
+	  return “I\’m made in China”;
+	}
+
