@@ -12,6 +12,9 @@ function getLaserSwordOrigin() {
 	  if (laserSwordColor == “red”) {
 	    return “I\’m owned by Luke\’s pa.”;
 	  }
+	  if (laserSwordColor == “yellow”) {
+	    return “I\’m owned by Maria\’s pa.”;
+	  }
 	  
 	  return “I\’m made in China”;
 	}
